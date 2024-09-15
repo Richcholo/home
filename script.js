@@ -28,24 +28,24 @@ $(document).ready(function () {
   // PHOTO HOVER //
   $("#gfx1").on({
     mouseenter: function () {
-      $("#gfx-main").attr("src", "/images/main-image.png");
+      $("#gfx-main").attr("src", "home/images/main-image.png");
     },
   });
   $("#gfx2").on({
     mouseenter: function () {
-      $("#gfx-main").attr("src", "/images/main-image-2.png");
+      $("#gfx-main").attr("src", "home/images/main-image-2.png");
     },
   });
   $("#gfx3").on({
     mouseenter: function () {
-      $("#gfx-main").attr("src", "/images/main-image-3.png");
+      $("#gfx-main").attr("src", "home/images/main-image-3.png");
     },
   });
 
   // FURINA //
   $("#furina").on({
     mouseenter: function () {
-      $(this).attr("src", "/images/furina2.png");
+      $(this).attr("src", "home/images/furina2.png");
     },
     mouseleave: function () {
       $(this).attr("src", "/images/furina.png");
